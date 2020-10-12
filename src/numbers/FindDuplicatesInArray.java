@@ -15,8 +15,8 @@ import java.util.Map;
 public class FindDuplicatesInArray {
 
 	public List<Integer> findDuplicates(int[] nums) {
-        List<Integer> outList = new ArrayList<Integer>();
-        HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
+        List<Integer> outList = new ArrayList<>();
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
         
         for (int i : nums) {
         	if (hashMap.containsKey(i)) {
